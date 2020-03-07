@@ -1,0 +1,45 @@
+.container {
+    position       : absolute;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    background     : linear-gradient(to bottom, #2c3e50, #fd746c);
+    top            : 0;
+    right          : 0;
+    bottom         : 0;
+    left           : 0;
+}
+
+.queueList {
+    display       : 'flex';
+    flex-direction: 'row';
+    height        : '600px';
+    width         : '800px';
+    overflow      : 'scroll'
+}
+
+.queueList__item {
+    margin: '5px'; 
+    border-radius: '100px'; 
+    padding: '8px'; 
+    display: 'flex'; 
+    border: '1px dotted #888888'; 
+    min-width: '350px'; 
+    max-width: '350px'; 
+    background-color: '#1f2024'; 
+    flex-direction: 'row'; 
+    align-items: 'center' 
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    margin: 0; 
+    flex: 1; 
+    color: '#eeeeee'; 
+    margin-left: '5px'; 
+    font-weight: '600' 
+}
