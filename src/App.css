@@ -1,9 +1,9 @@
-:local(.wrapper){
-  background: linear-gradient(to right, #1c92d2, #f2fcfe);
-  position: absolute;
-  top:0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow-y: scroll ;
+.wrapper {
+    background-color: #36363a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
 }

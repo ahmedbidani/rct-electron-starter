@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.item{
+    margin: 5px;
+    border-radius: 100px; 
+    padding: '8px';
+    display: 'flex';
+    border: '1px dotted #888888'; 
+    min-width: '300px'; 
+    max-width: '300px'; 
+    background-color: '#1f2024'; 
+    flex-direction: 'row'; 
+    align-items:'center'
+}
+.wrapper{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoWrapper {
+    width: 300px;
+    height: 200px;
+}
+
+.loginImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.buttonIcon{
+    align-items: center;
+    background-color: #202124;
+    border-radius: 50%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 16px;
+    width: 80px;
+    padding: 5px;
+}
+.buttonTitle span{
+    color: #f7f8f9;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.buttonWrapper{
+    border: 1px sold red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #f8f9fa;
+    cursor: pointer;
+    height: 150px;
+    margin-bottom: 16px;
+    opacity: 1;
+    padding-top: 16px;
+    position: relative;
+    transition-property: background, background-color, border-color, box-shadow, opacity, filter;
+    width: 150;
+}
+
+.buttonInnerWrapper{
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.buttonsWrapper{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
